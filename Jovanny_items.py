@@ -9,7 +9,8 @@ class Weapon(Item):
         super(Weapon, self).__init__(name)
         self.damage = damage
 
-class sword(Weapon)
+class Weapon(Item):
+    def __init__(self, Weapon, ):
 
 
 
@@ -42,6 +43,8 @@ class Character(object):
 
 
 # Items
+sword = Weapon("a sword from the gods", 100)
+
 
 
 
