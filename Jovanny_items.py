@@ -10,7 +10,7 @@ class Weapon(Item):
         self.damage = damage
 
 class Weapon(Item):
-    def __init__(self, Weapon, ):
+    def __init__(self, Weapon,):
 
 
 
@@ -49,7 +49,10 @@ sword = Weapon("a sword from the gods", 100)
 
 
 # Characters
-monster = Character("monster", 100, )
+monster = Character("monster", 100)
+monster2 = Character("monster", 100)
+monster3 = Character("monster", 100)
+monster4 = Character("monster", 100)
 knight = Character("knight", 100, sword,)
 horse = Character("horse", 100)
 
