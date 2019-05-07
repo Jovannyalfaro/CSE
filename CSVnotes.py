@@ -26,7 +26,7 @@ def divisilbe_by_2(num: str):
 
 
 def all_16_digits(num: str):
-    if len(num)
+    if len(num):
 
 
 
@@ -49,6 +49,10 @@ def all_16_digits(num: str):
 #                   # print(old_number)
 # print("Done")
 
+
+
+def reverse_it(string):
+    print(string[::-1])
 
 
 
