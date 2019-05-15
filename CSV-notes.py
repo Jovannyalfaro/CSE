@@ -1,4 +1,4 @@
-# import csv
+import csv
 
 
 def vaildate(num: str):
@@ -33,21 +33,19 @@ def all_16_digits(num: str):
 
 
 
-#  with open("Book1.csv") as old_csv
-#       with open("Book1.csv", 'w', newline='') as new_csv:
-#           print("writing file...  ")
-#           reader = csv.reader(old_csv)
-#           writer = csv.writer(new_csv)
-#           for row in reader:
-#               old_number = int(old_csv)
-#               new_number = old_number + 1
-#                   old_number = int(row[0])
-#                   new_number = old_number + 1
-#                   row[0] = new_number
-#                   writer,writerow(row)
-#                   # print(int(old_number) +1)
-#                   # print(old_number)
-# print("Done")
+  with open("Book1.csv") as old_csv
+       with open("Book1.csv", 'w', newline='') as new_csv:
+          print("writing file...  ")
+           reader = csv.reader(old_csv)
+          writer = csv.writer(new_csv)
+          for row in reader:
+               old_number = int(old_csv)
+               new_number = old_number + 1
+                   old_number = int(row[0])
+                   new_number = old_number + 1
+                  row[0] = new_number
+                   writer,writerow(row)
+ print("Done")
 
 
 
